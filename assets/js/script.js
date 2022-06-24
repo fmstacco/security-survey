@@ -83,3 +83,35 @@ function nextQuestion(question_number){
     el.style.display = "block";
     el2.style.display = "none";
 }
+
+// Adicionar eventos ao botão
+
+submit1.addEventListener('click', function(){
+    nextQuestion(2);
+    growProgressBar('0%')
+})
+
+submit1.addEventListener('click', function(){
+    nextQuestion(2);
+    growProgressBar('20%')
+})
+
+submit2.addEventListener('click', function(){
+    nextQuestion(3);
+    growProgressBar('40%')
+})
+
+submit3.addEventListener('click', function(){
+    nextQuestion(4);
+    growProgressBar('60%')
+})
+
+submit4.addEventListener('click', function(){
+    nextQuestion(5);
+    growProgressBar('80%')
+})
+
+submit5.addEventListener('click', function(){
+    nextQuestion(6);
+    growProgressBar('100%')
+})
