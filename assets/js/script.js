@@ -59,4 +59,11 @@ function getInfoBasedOnScore(){
     }else if(totalScore() <7) {
         var score_info = "Parabéns! Você está bem de segurança!"
     } 
+    return score_info;
 }
+
+var submit1 = document.getElementById('submit1');
+var submit1 = document.getElementById('submit2');
+var submit1 = document.getElementById('submit3');
+var submit1 = document.getElementById('submit4');
+var submit1 = document.getElementById('submit5');
